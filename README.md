@@ -28,3 +28,12 @@ If you would like to change/add/remove menu items adjist the code in the follwin
   .addToUi();``
   
  Add / remove functions like retrieveRPM 
+ 
+ ### Save your changes
+ Save changesc in tghe google sheet
+ 
+ ## Display menu item
+
+Reload the page the spreadsheet is one (close it/reopen , reload the page)
+
+You should see the Refresh Data from AutoPi menu item
