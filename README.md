@@ -31,8 +31,21 @@ If you would like to change/add/remove menu items adjist the code in the follwin
   .addItem("Refresh ALL data", "retrieveALL")
   .addToUi();``
   
+  ``SpreadsheetApp.getUi()
+  .createMenu("Refresh Data from AutoPi")
+  .addItem("Refresh RPM data", "retrieveRPM")
+  .addItem("Refresh BBM data", "retrieveBBM")
+  .addItem("Refresh TPR data", "retrieveTPR")
+  .addItem("Refresh ALL data", "retrieveALL")
+  .addToUi();``
+  
  Add / remove functions like retrieveRPM 
  
+ ``
+ function retrieveTPR(){
+     retrieveAutoPi(TPR);
+} 
+`` 
  ### Save your changes
  Save changes in the google sheet
  
