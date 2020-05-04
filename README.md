@@ -7,13 +7,17 @@ In tools/script editor paste the code from autopi.js (you will need to change em
 
 ### Change/add/remove PIDs
 
-Chang/add/remove defintions const RPM = "rpm". If you dont not need the RPM PID remove this line. If you want to change the name chasnge both the RPM and lower case (which should reflect the pid)
+Chang/add/remove defintions const RPM = "rpm". If you dont not need the RPM PID remove this line. If you want to change the name change both the RPM and lower case value (which should reflect the pid)
 
-You can duplicate this line as often as you need.
+You can duplicate this line as often as you need to add new pid's.
+
+e.g 
+
+const TPR = 'tpr'
 
 To add the new/changed/deleted items in the array to be processed on process ALL add/change/remove from the array
 
-let pidList = [RPM,BBM]
+let pidList = [RPM,BBM,TPR]
 
 
 ###  Change/add/remove menu items
