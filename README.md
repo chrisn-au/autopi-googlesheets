@@ -30,7 +30,7 @@ If you would like to change/add/remove menu items adjist the code in the follwin
  Add / remove functions like retrieveRPM 
  
  ### Save your changes
- Save changesc in tghe google sheet
+ Save changes in the google sheet
  
  ## Display menu item
 
